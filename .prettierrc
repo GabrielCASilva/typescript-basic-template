@@ -1,0 +1,7 @@
+{
+  "traillingComma": "es5",
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": false,
+  "linebreak-style": ["error", "unix"]
+}
