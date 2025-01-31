@@ -1,5 +1,2 @@
-npm run clean:build
-npm run clean:report
-npm run clean:cache
 npm run lint:fix
 npm test
