@@ -13,7 +13,8 @@ export default tseslint.config(
       "./dist/**/*",
       "eslint.config.mjs",
       "jest.config.js",
-      "jest-html-reporters-attach"
+      "jest-html-reporters-attach",
+      ".eslintcache"
     ]
   },
   eslint.configs.recommended,
