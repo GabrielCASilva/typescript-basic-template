@@ -6,7 +6,7 @@
     "clean:build": "rm -rf ./dist",
     "clean:report": "rm -rf jest-html-reporters-attach && rm jest_html_reporters.html",
     "clean:cache": "rm .eslintcache",
-    "build": "npm run clean && tsc",
+    "build": "npm run clean:build && tsc",
     "dev": "tsx watch src/index.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix --cache",
